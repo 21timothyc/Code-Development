@@ -1,4 +1,4 @@
-from telescope import ssh_telescope
+from telescope import Telescope
 
 class autoFlat(self,exptime, bin, filter, count):
     if exptime < 60
