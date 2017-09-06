@@ -7,4 +7,4 @@ class autoFlat(self,exptime, bin, filter, count):
         time.sleep(1)
     else
         print "Connection to telescope"
-    connect()
+    connect("What values do I put in here, I know that I have to put a username and a host, not sure in what format")
