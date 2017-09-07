@@ -1,19 +1,11 @@
-from telescope import Telescope
+class flatSet(object):
+    count = 3
+    bin = 2
+    filter = ["u-band","g-band","r-band","etc"]
+    #u-band, g-band, r-band, i-band, z-band, clear, or h-alpha
 
-class autoFlat(self,exptime, bin, filter, count):
-    if exptime < 60
-        exptime = 60
-        print "Your exposure time is to long - i'll set it to 60"
-        print "Connecting to telescope"
-        time.sleep(1)
-    else
-        print "Connecting to telescope"
-    connect()
-    is_alive() = status
-    if status == "true"
-        print "succsesfully connected to telescope"
-    else
-        print "connection failed, trying again"
-        status
-        if status == "true"
-            print ""
+    def __init__(self, bin, filter, count):
+        #assign the class attributes
+        self.bin = bin
+        self.filter = filter
+        self.count = count
